@@ -1,5 +1,6 @@
 # extrator-audio
 Comando para instalar:  pip install git+https://github.com/MetadadosPy/extrator-audio.git
+
 Comando para importar: from extrator_audio.api import extract_audio_from_video
 
 Exemplo:
