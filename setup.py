@@ -1,27 +1,21 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
     name="extrator_audio",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=[
-        "ffmpeg-python",
-        "fastapi",
-        "uvicorn"
-    ],
+    install_requires=["ffmpeg-python", "fastapi", "uvicorn"],
     entry_points={
         "console_scripts": [
-            "extrator-audio-api=extrator_audio.api:app"
+            "extrair-audio=extrator_audio.api:main"
         ]
     },
-    author="Seu Nome",
-    description="Pacote para extrair áudio de vídeos com suporte a API FastAPI",
-    long_description=open("README.md").read(),
+    author="Ivys Lima",
+    description="Um extrator de áudio a partir de vídeos usando FFmpeg",
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Framework :: FastAPI",
-        "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
 )
