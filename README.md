@@ -39,7 +39,7 @@ Você pode instalar diretamente do GitHub:
 pip install git+https://github.com/MetadadosPy/extrator-audio.git
 ```
 ##Exemplo básico
-
+```
 from extrator_audio import extract_audio_from_video
 
 video_path = "meu_video.mp4"
@@ -49,6 +49,5 @@ try:
     print(f"Áudio extraído para: {audio_path}")
 except Exception as e:
     print(f"Erro: {e}")
-
-
+```
 
