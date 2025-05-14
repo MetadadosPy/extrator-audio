@@ -13,7 +13,7 @@ Pacote Python para extração otimizada de áudio em formato MP3 a partir de ví
 
 ---
 
-##Dependências
+## Dependências
 
 - FFmpeg deve estar instalado e acessível pelo sistema (ffmpeg e ffprobe no PATH).
 - Python 3.6 ou superior.
@@ -21,7 +21,7 @@ Pacote Python para extração otimizada de áudio em formato MP3 a partir de ví
 
 ---
 
-##Argumentos da função extract_audio_from_video
+## Argumentos da função extract_audio_from_video
 
 - video_path (str): caminho para o arquivo de vídeo.
 - audio_format (str, opcional): formato do áudio a ser extraído (default: "mp3").
@@ -38,7 +38,7 @@ Você pode instalar diretamente do GitHub:
 ```bash
 pip install git+https://github.com/MetadadosPy/extrator-audio.git
 ```
-##Exemplo básico
+## Exemplo básico
 ```
 from extrator_audio import extract_audio_from_video
 
